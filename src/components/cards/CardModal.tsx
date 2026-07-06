@@ -86,7 +86,7 @@ function CardModal({ isOpen, onClose, card }: Props) {
       onRequestClose={onClose}
       contentLabel={card ? "Edit Card" : "Add Card"}
       className="bg-white rounded-xl shadow-xl w-full max-w-lg mx-auto mt-24 p-6"
-      overlayClassName="fixed inset-0 bg-black/50 flex justify-center items-start"
+      overlayClassName="fixed inset-0 bg-black/50 flex justify-center items-center p-4 overflow-y-auto"
     >
       <h2 className="text-2xl font-bold mb-6">
         {card ? "Edit Card" : "Add Card"}
